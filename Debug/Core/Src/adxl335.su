@@ -1,0 +1,7 @@
+../Core/Src/adxl335.c:6:21:adc_to_volt	16	static
+../Core/Src/adxl335.c:11:21:lpf	24	static
+../Core/Src/adxl335.c:16:6:ADXL335_InitDefaults	16	static
+../Core/Src/adxl335.c:39:6:ADXL335_CalibrateFlat	64	static
+../Core/Src/adxl335.c:81:6:ADXL335_Update	48	static
+../Core/Src/adxl335.c:101:6:ADXL335_GetAnglesDeg	40	static
+../Core/Src/adxl335.c:114:10:ADXL335_TiltToPwmCcr	40	static

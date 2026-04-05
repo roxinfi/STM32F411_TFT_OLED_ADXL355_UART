@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>RTOS_F411_MAIN_TX</name>
+	<name>STM32F411_NRF_TFT_OLED_ADXL355_UART</name>
 	<comment></comment>
 	<projects>
 	</projects>

@@ -1,0 +1,7 @@
+../Core/Src/i2clcd.c:35:6:lcd_send_cmd	1
+../Core/Src/i2clcd.c:55:6:lcd_send_data	1
+../Core/Src/i2clcd.c:77:6:lcd_clear	1
+../Core/Src/i2clcd.c:91:6:lcd_init	1
+../Core/Src/i2clcd.c:126:6:lcd_send_string	8
+../Core/Src/i2clcd.c:163:6:lcd_write	3
+../Core/Src/i2clcd.c:179:6:lcd_clear_line	4

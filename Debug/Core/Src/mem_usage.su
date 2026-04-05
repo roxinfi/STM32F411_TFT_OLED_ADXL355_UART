@@ -1,0 +1,4 @@
+../Core/Src/mem_usage.c:12:10:Mem_FlashTotal	4	static
+../Core/Src/mem_usage.c:20:10:Mem_FlashUsed	24	static
+../Core/Src/mem_usage.c:34:10:Mem_RamTotal	4	static
+../Core/Src/mem_usage.c:39:10:Mem_RamUsedStatic	16	static
