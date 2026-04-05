@@ -60,8 +60,8 @@ all: main-build
 main-build: STM32F411_NRF_TFT_OLED_ADXL355_UART.elf secondary-outputs
 
 # Tool invocations
-STM32F411_NRF_TFT_OLED_ADXL355_UART.elf STM32F411_NRF_TFT_OLED_ADXL355_UART.map: $(OBJS) $(USER_OBJS) C:\Users\vrajp\STM32CubeIDE\workspace_1.19.0\STM32F411_NRF_TFT_OLED_ADXL355_UART\STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32F411_NRF_TFT_OLED_ADXL355_UART.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\vrajp\STM32CubeIDE\workspace_1.19.0\STM32F411_NRF_TFT_OLED_ADXL355_UART\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F411_NRF_TFT_OLED_ADXL355_UART.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32F411_NRF_TFT_OLED_ADXL355_UART.elf STM32F411_NRF_TFT_OLED_ADXL355_UART.map: $(OBJS) $(USER_OBJS) C:\Users\vrajp\OneDrive\Documents\GitHub\STM32F411_TFT_OLED_ADXL355_UART\STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32F411_NRF_TFT_OLED_ADXL355_UART.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\vrajp\OneDrive\Documents\GitHub\STM32F411_TFT_OLED_ADXL355_UART\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F411_NRF_TFT_OLED_ADXL355_UART.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
